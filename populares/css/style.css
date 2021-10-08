@@ -2,14 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.pratos{
-    background: #d6200e;
-   
-    height: 100vh;
+
 }
 
-img{
-    width: 450px;
-    height: 400px;
+body{
+    background: linear-gradient(90deg, rgba(214,32,14,0.95) 5%, rgba(214,32,14,1) 50%, rgba(214,32,14,0.95) 95%);
+
+}
+.pratos{
+    display: flex;
+}
+.pratos p{
+    
+    padding-left: 10px;
+    padding-top: 80px;
+    color: #E4F654;
+}
+.pratos img{
+    margin-top: 10px ;
+    margin-left: 10px;    
+    border: 1px solid #E4F654;
+    width: 250px;
+    height: 200px;
 }
