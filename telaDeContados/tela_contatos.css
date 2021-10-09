@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #D6200E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 600px;
+    background: #D6200E;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.1);
+
+}
+
+/* =========================================================< Esquerda >============================================ */
+
+.container .box_left{
+    position: relative;
+    background: #D6200E;
+    padding: 20px;
+}
+
+#box_footer{
+    position: relative;
+    top: 20px;
+    border-top: solid 2px #E4F654;
+    width: 100%;
+    
+}
+#box_footer #footer{
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+}
+#box_footer #footer ul{
+    position: relative;
+    
+}
+#box_footer #footer ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+#box_footer #footer ul li .icone{
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+    color: #E4F654;
+}
+#box_footer #footer ul li span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #E4F654;
+}
+
+#box_midia{
+    position: absolute;
+    width: auto;
+    z-index: 2;
+    
+}
+#box_midia #midia{
+    position: relative;
+}
+
+#box_midia #midia ul{
+    position: relative;
+    
+}
+#box_midia #midia ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#box_midia #midia a{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    color: #E4F654;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 7px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#box_midia #midia a:hover{
+    color: #D6200E;
+    background-color: #E4F654;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#img_logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    
+}
+
+#img_logo img{
+    position: relative;
+    width: 484px;
+    height: 0 auto;
+    overflow: hidden;
+}
+
+
+
+/* =========================================================< Direita >============================================ */
+
+.container .box_right{
+    position: relative;
+    background: #E4F654;
+    padding: 20px;
+}
+
+.box_contato{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato select, 
+#contato textarea,
+#contato button[type="submit"]{
+    font: 500 15px/18px 'Roboto', sans-serif;
+}
+
+#contato{
+    background-color: #E4F654;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.2) rgba(0,0,0,0.24);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contato h3{
+    display: block;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#contato h4{
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato select, 
+#contato textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+#contato textarea{
+    height: 15vh;
+}
+
+#contato input[type="text"]:hover,
+#contato input[type="email"]:hover,
+#contato input[type="tel"]:hover,
+#contato select:hover, 
+#contato textarea:hover{
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contato button[type="submit"]{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #D6200E;
+    color: #E4F654;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#contato button[type="submit"]:hover{
+    background-color: #fff;
+    border: solid 2px #D6200E;
+    color: #D6200E;
+    transition: background-color 0.3s ease-in-out;
+}
+#contato button[type="submit"]:active{
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/*====<validar  Nome css>===*/
+
+#contato input[type="text"]:invalid{
+    border-color: crimson;
+    box-shadow: 0px 0px 3px crimson;
+}
+  
+#contato input[type="text"]:focus{
+    outline: none;
+}
+  
+#contato input[type="text"]:focus:invalid{
+    box-shadow: none;
+}
+  
+#contato span{
+    color: crimson;
+}
+
+/*====<validar  Email css>===*/
+
+#contato input[type="email"]:invalid{
+    border-color: crimson;
+    box-shadow: 0px 0px 3px crimson;
+}
+  
+#contato input[type="email"]:focus{
+    outline: none;
+}
+  
+#contato input[type="email"]:focus:invalid{
+    box-shadow: none;
+}
+  
+#contato span{
+    color: crimson;
+}
+
+
+/*====<validar  textarea css>===*/
+
+#contato textarea:invalid{
+    border-color: crimson;
+    box-shadow: 0px 0px 3px crimson;
+}
+  
+#contato textarea:focus{
+    outline: none;
+}
+  
+#contato textarea:focus:invalid{
+    box-shadow: none;
+}
+  
+#contato span{
+    color: crimson;
+    
+}
+
+
+/* =========================================================< Responsividade >============================================ */
+
+@media (max-width: 1150px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+@media (max-width: 1000px){
+    #box_footer{
+        border: none;
+        
+    }
+    #box_footer #footer ul li{
+        display: block;
+        position: relative;
+        margin: 10px 0;    
+    }
+    #box_footer #footer ul li .icone{
+        width: 40px;
+        font-size: 35px;
+    }
+    #box_footer #footer ul li span{
+        font-size: 22px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
