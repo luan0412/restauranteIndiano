@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Annapurna - Contato</title>
+        <link rel="stylesheet" href="tela_contatos.css">
+        <script src="tela_contatos.js" defer></script>
+        <script src="https://kit.fontawesome.com/bb36490414.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="box_left">
+                <div id="box_midia">
+                    <div id="midia">
+                        <ul>
+                            <li><a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        </ul>  
+                    </div>
+                </div>
+                <div id="img_logo">
+                    <img src="img/logo.png">
+                </div>
+                <div id="box_footer">
+                    <div id="footer">
+                        <ul>
+                            <li>
+                                <span class="icone"><i class="fas fa-map-marked-alt"></i></span>
+                                <span class="txt">R. Agenor Lopes,	Boa Viagem, 606 |</span>
+                            </li>
+                            <li>
+                                <span class="icone"><i class="fas fa-phone-alt"></i></span>
+                                <span class="txt">+55 81 8769-1020 |</span>
+                            </li>
+                            <li>
+                                <span class="icone"><i class="far fa-envelope"></i></span>
+                                <span class="txt">annapurna@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box_right">
+                <div class="box_contato"></div>
+                    <form id="contato" action="" method="POST" autocomplete="off">
+                        <h3>Contato</h3>
+                        <h4>Entre em contato conosco para suporte técnico,
+                             vendas, elogios, sugestões, e reclamações dos nossos serviços.</h4>
+                        <fieldset>
+                            <input id="nome" placeholder="Digite seu Nome" type="text" tabindex="1" minlength="3" maxlength="100" autofocus>
+                            <span id="nomeSpan"></span>
+                        </fieldset>
+                        <fieldset>
+                            <input id="email" placeholder="Digite seu Email" type="email" tabindex="2" maxlength="100">
+                            <span id="emailSpan"></span>
+                        </fieldset>
+                        <fieldset>
+                            <input id="call" placeholder="Digite seu Telefone" type="tel" tabindex="3">
+                            <span id="callSpan"></span>
+                        </fieldset>
+                        <fieldset>
+                            <select id="selec" tabindex="4">
+                                <option value="assunto" id="assunto">Selecione o assunto...</option>
+                                <option value="Elogios">Elogios</option>
+                                <option value="reclamações">Reclamações</option>
+                                <option value="sugestões">Sugestões</option>
+                                <option value="sugestões">Vendas</option>
+                                <option value="sugestões">Outros</option>
+
+                            </select>
+                            <span id="selecSpan"></span>
+                        </fieldset>
+                        <fieldset>
+                            <textarea id="texto" placeholder="Escreva sua mensagem aqui..." tabindex="5" minlength="5" maxlength="1000"></textarea>
+                            <span id="textoSpan"></span>
+                        </fieldset>
+                        <fieldset>
+                            <button nome= "submit" type="submit" id="botao">Enviar</button> 
+                        </fieldset>
+                    </form>
+                </div>
+                
+                
+
+            </div>
+        </div>
+        
+    </body>
+</html>
