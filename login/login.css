@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+
+#nov{
+    background-color:rgb(219, 190, 190);
+    background-image: radial-gradient(circle at 50% -20.71%, #ffff92 0, #f4ef4a 50%, #b1c000 100%);
+    width: 620px ;
+    height:130%;
+    bottom: 0px;
+    position: fixed;
+    right: 0px;
+    
+    
+}
+
+#logo {
+    position: relative;
+    top: 540px;
+    height: 130px;
+   right: 85px;
+   transition: all 0.5s;
+   cursor: pointer;
+   background-color: rgb(179, 127, 127);
+   border-radius: 50%;
+
+}
+
+#logo:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+ }
+
+
+
+.bloco1{
+    position: relative;
+    height: 30px;
+    width: 323px;
+    right: -159px;
+    top: 580px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 50px;
+    transition: all .5s;
+    background-color: whitesmoke;
+    padding-left: 4px;
+   
+    
+}
+
+
+
+
+
+
+.bloco2{
+    position: relative;
+    width: 323px;
+    height: 30px;
+    right: -159px;
+    top: 620px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 50px;
+    transition: all .5s;
+    background-color: whitesmoke;
+    padding-left: 4px;
+
+}
+
+
+
+
+.acesso {
+    position: relative ;
+    width: 120px;
+    height: 30px;
+    left: 52px;
+    top: 749px;
+    padding: 0px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer; 
+    background-image: linear-gradient(135deg, #fffff4 0, #ffffef 12.5%, #f5fce9 25%, #e7eee2 37.5%, #d9ddd8 50%, #cdcccd 62.5%, #c4bdc2 75%, #beb0b8 87.5%, #b9a5ae 100%);
+ }
+
+ .acesso:hover {
+
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+
+ }
+
+
+ a{
+    position: relative;
+    top: 810px;
+    left: 223px;
+
+    
+   
+
+}
+
+#restaulogo{
+    position: fixed;
+    background-image: radial-gradient(circle at 50% -20.71%, #ef8666 0, #e97761 16.67%, #e06659 33.33%, #d35050 50%, #c63848 66.67%, #bb1f44 83.33%, #b20043 100%);
+
+    width: 1400px;
+    height: 1000px;
+    left: -5%;
+}
+
+
+input:focus{
+    outline: none
+    ;
+}
+
