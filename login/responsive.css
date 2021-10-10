@@ -1,0 +1,30 @@
+@media  (max-width:768px){
+    #nov{ 
+        left: -20px;
+        width: 900px;
+    }
+
+    @media  (max-width:768px){
+        #telalog{ 
+            position: relative;
+            left: 50px;
+            bottom:80px ;
+        }
+    }
+
+    @media  (max-width:768px){
+        .bloco2{ 
+           
+            left: -170px ;
+            top: 640px;
+           
+        }
+    }
+}
+
+
+@media  (max-width:768px){
+    #restaulogo{ 
+        display: none;
+    }
+}
