@@ -1,0 +1,23 @@
+@media(max-width:960px) {
+    .pratos2{
+        flex-direction: column;
+    }
+    .pratos img{
+        width: 30%;
+        height: auto;
+    }
+}
+ 
+@media(max-width:500px) {
+    .mainP{
+        width: 100%;
+    }
+    .textos{
+        width: 100%;
+
+    }
+    .pratos img{
+        display: none;
+
+    }
+}

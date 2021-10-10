@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,22 +7,118 @@
 }
 
 body{
-    background: linear-gradient(90deg, rgba(214,32,14,0.95) 5%, rgba(214,32,14,1) 50%, rgba(214,32,14,0.95) 95%);
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg,  #d61f0ef5, #d61f0ef5),
+    url("https://png.pngtree.com/png-vector/20191026/ourlarge/pngtree-plate-with-spoon-and-fork-pattern-simple-style-png-image_1860210.jpg")
+      fixed;
+ 
 
 }
-.pratos{
-    display: flex;
+.pratosMain h1{
+    margin-top: 10px;
+    color: #E4F654;
+    text-align: center;
+    margin-bottom: 30px;
 }
-.pratos p{
-    
+.pratos{
+    margin-top:10px;
+    display: flex;
+
+}
+.pratos2{
+
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;  
+
+}
+.pratos button{
+    background: transparent ;
+    height: 60px;
+    width: 45%;
+    margin-top: 10px;
+    margin-left:10px;
+    border-radius: 10px;
+    border: 5px solid #E4F654;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.pratos button:hover{
+
+    background:#E4F654 ;
+    color: black;
+}
+.textos{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainP{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 10px;
+    opacity: 0.8;
+    font-size: 22px;
     padding-left: 10px;
-    padding-top: 80px;
+    padding-top: 20px;
     color: #E4F654;
 }
+.mainP:hover{
+    opacity: 1;
+}
 .pratos img{
-    margin-top: 10px ;
-    margin-left: 10px;    
-    border: 1px solid #E4F654;
-    width: 250px;
-    height: 200px;
+    margin-top: 30px ;
+    margin-left: 15px;    
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.mais1 {
+    opacity: 0;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #eefc86;
+    padding-left: 10px;
+    width: 70%;
+}
+.mais2 {
+    opacity: 0;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #eefc86;
+    padding-left: 10px;
+    width: 70%;
+
+}
+.mais3 {
+    font-style: italic;
+    opacity: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #eefc86;
+    padding-left: 10px;
+    width: 70%;
+
+}
+
+.mais4 {
+    font-style: italic;
+    opacity: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #eefc86;   
+    padding-left: 10px;
+    width: 70%;
+
 }
