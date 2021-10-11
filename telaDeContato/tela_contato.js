@@ -6,31 +6,67 @@ botao.addEventListener( 'click', validar => {
     
     if(document.getElementById('nome').value == ''){
         validar.preventDefault()
-        alert(' Por favor verifique se todos os dados foram preenchidos.');
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Por favor, verifique se todos os dados foram preenchidos.',
+            showConfirmButton: false,
+            timer: 3500
+        })
         document.getElementById('nome').focus();
     }
     else if(document.getElementById('email').value == ''){
         validar.preventDefault()
-        alert(' Por favor, verifique se todos os dados foram preenchidos.');
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Por favor, verifique se todos os dados foram preenchidos.',
+            showConfirmButton: false,
+            timer: 3500
+        })
         document.getElementById('email').focus();
     }
     else if(document.getElementById('call').value == ''){
         validar.preventDefault()
-        alert(' Por favor, verifique se todos os dados foram preenchidos.');
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Por favor, verifique se todos os dados foram preenchidos.',
+            showConfirmButton: false,
+            timer: 3500
+        })
         document.getElementById('call').focus();
     }
     else if(document.getElementById('selec').value == 'assunto'){
         validar.preventDefault()
-        alert(' Por favor, verifique se todos os dados foram preenchidos.');
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Por favor, verifique se todos os dados foram preenchidos.',
+            showConfirmButton: false,
+            timer: 3500
+        })
         document.getElementById('selec').focus();
     }
     else if(document.getElementById('texto').value == ''){
         validar.preventDefault()
-        alert(' Por favor, verifique se todos os dados foram preenchidos.');
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Por favor, verifique se todos os dados foram preenchidos.',
+            showConfirmButton: false,
+            timer: 3500
+        })
         document.getElementById('texto').focus();
     }
     else{
-        alert(' Sua mensagem foi enviada ao Restaurante Start!');
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Sua mensagem foi enviada ao Restaurante Start!',
+            showConfirmButton: false,
+            timer: 3500
+        })
     }
 });
 

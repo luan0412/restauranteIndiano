@@ -13,22 +13,6 @@ body{
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
-.voltar{
-  
-    background: #eefc86;
-    width: 6%;
-    border: none;
-    padding: 8px;
-    color: white;
-    font-size: 19px;
-    cursor: pointer;
-    border-radius: 10px;
-
-}
-.voltar a{
-    color:  #D6200E;
-    text-decoration: none;
-}
 
 .container{
     position: relative;
