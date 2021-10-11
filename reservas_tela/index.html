@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="div1">
+        <form action="">
+
+            <legend><b>Reserve sua mesa</b></legend>
+            <br>
+
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUs" required>
+                <label for="nome" class="labelInput">Nome Completo</label>
+            </div>
+
+            <br><br>
+
+            <div class="inputBox">
+                <input type="text" name="email" id="email" class="inputUs" required>
+                <label for="email" class="labelInput">Email</label
+            </div>
+
+            <br><br>
+
+            <div class="inputBox">
+                <input type="time" id="appt" name="appt" class="inputUs"
+                    min="09:00" max="22:00" required>
+                    <label for="appt">Agende seu horário</label>
+            </div>
+
+            <br><br>
+
+            <div class="nome">
+                <input type="number" name="numero" id="numero" class="inputUs" required>
+                <label for="number">Quantidade de pessoas</label>
+            </div>
+            
+            <br><br>
+
+            <div class="inputBox">
+                <input type="date" name="date" id="date" class="inputUs" required>
+                <label for="date">Data</label>
+            </div>
+   
+           <br><br>              
+                <input type="submit" value="Enviar" id="submit1">
+                <br> <br>
+                <input type="submit" value="Cancelar" id="submit2">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
