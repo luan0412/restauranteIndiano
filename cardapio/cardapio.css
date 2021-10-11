@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#box_img{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#box_img img{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 750px){
+    #box_img img{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+}
