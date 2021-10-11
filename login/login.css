@@ -8,8 +8,8 @@
     position: fixed;
     background-image: radial-gradient(circle at 50% -20.71%, #ef8666 0, #e97761 16.67%, #e06659 33.33%, #d35050 50%, #c63848 66.67%, #bb1f44 83.33%, #b20043 100%);
     overflow:hidden;
-    width: 65%;
-    height: auto;
+    width: 1400px;
+    height: 100%;
     left: -5%;
 }
 .imagem{
