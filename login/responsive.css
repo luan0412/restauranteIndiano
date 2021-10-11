@@ -28,3 +28,57 @@
         display: none;
     }
 }
+
+@media  (max-width:1024px){
+    #restaulogo{ 
+
+        width: 60%;
+        
+    }
+}
+
+@media  (max-width:1024px){
+    #nov{ 
+        
+        width: 50%;
+    }
+}
+
+@media  (max-width:1024px){
+    #telalog{ 
+        position: relative;
+        right: 14%;
+        bottom: 5%;
+
+        
+    }
+}
+
+@media  (max-width:1440px){
+    #restaulogo{ 
+
+        width: 60%;
+        
+    }
+}
+
+@media  (max-width:1440px){
+    #nov{ 
+        
+        width: 45%;
+        
+    }
+}
+
+
+@media  (max-width:1440px){
+    #telalog{ 
+       
+        position: relative;
+        bottom: 4%;
+       
+        
+
+        
+    }
+}
