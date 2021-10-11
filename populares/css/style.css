@@ -16,7 +16,7 @@ body{
 }
 .voltar{
     display: inline-block;
-    background-image: linear-gradient(to right, rgba(243, 14, 14, 0.788), rgb(207, 9, 9));
+    background: #eefc86s;
     width: 6%;
     border: none;
     padding: 8px;
