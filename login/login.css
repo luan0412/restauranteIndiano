@@ -4,6 +4,18 @@
     
     
 }
+#restaulogo{
+    position: fixed;
+    background-image: radial-gradient(circle at 50% -20.71%, #ef8666 0, #e97761 16.67%, #e06659 33.33%, #d35050 50%, #c63848 66.67%, #bb1f44 83.33%, #b20043 100%);
+    overflow:hidden;
+    width: 65%;
+    height: auto;
+    left: -5%;
+}
+.imagem{
+    position: relative;
+}
+
 
 #nov{
     background-color:rgb(219, 190, 190);
@@ -108,14 +120,6 @@
 
 }
 
-#restaulogo{
-    position: fixed;
-    background-image: radial-gradient(circle at 50% -20.71%, #ef8666 0, #e97761 16.67%, #e06659 33.33%, #d35050 50%, #c63848 66.67%, #bb1f44 83.33%, #b20043 100%);
-
-    width: 1400px;
-    height: 1000px;
-    left: -5%;
-}
 
 
 input:focus{
