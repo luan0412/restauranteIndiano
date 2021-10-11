@@ -1,33 +1,67 @@
-@media  (max-width:768px){
-    #nov{ 
-        left: -20px;
-        width: 900px;
-    }
-
-    @media  (max-width:768px){
-        #telalog{ 
-            position: relative;
-            left: 50px;
-            bottom:80px ;
-        }
-    }
-
-    @media  (max-width:768px){
-        .bloco2{ 
-           
-            left: -170px ;
-            top: 640px;
-           
-        }
-    }
-}
-
 
 @media  (max-width:768px){
-    #restaulogo{ 
-        display: none;
+    #telalog{ 
+       left: 53%;
     }
-}
+
+  
+    
+} 
+
+@media  (max-width:768px){
+    .bloco1{ 
+       right: 50%;
+    }
+
+  
+    
+} 
+
+@media  (max-width:768px){
+    .bloco2{ 
+       right: 50%;
+    }
+
+  
+    
+} 
+
+
+@media  (max-width:768px){
+    .bloco1{ 
+       right: 50%;
+    }
+
+  
+    
+} 
+ 
+
+@media  (max-width:768px){
+    .acesso{ 
+        position: fixed;
+       left: 70%;
+       top: 73%;
+    }
+
+  
+    
+} 
+
+
+@media  (max-width:768px){
+    a{ 
+        position: fixed;
+       left: 65%;
+       top: 80%;
+    }
+
+  
+    
+} 
+
+
+
 
 @media  (max-width:1024px){
     #restaulogo{ 
