@@ -1,30 +1,118 @@
+
 @media  (max-width:768px){
+    #telalog{ 
+       left: 53%;
+    }
+
+  
+    
+} 
+
+@media  (max-width:768px){
+    .bloco1{ 
+       right: 50%;
+    }
+
+  
+    
+} 
+
+@media  (max-width:768px){
+    .bloco2{ 
+       right: 50%;
+    }
+
+  
+    
+} 
+
+
+@media  (max-width:768px){
+    .bloco1{ 
+       right: 50%;
+    }
+
+  
+    
+} 
+ 
+
+@media  (max-width:768px){
+    .acesso{ 
+        position: fixed;
+       left: 70%;
+       top: 73%;
+    }
+
+  
+    
+} 
+
+
+@media  (max-width:768px){
+    a{ 
+        position: fixed;
+       left: 65%;
+       top: 80%;
+    }
+
+  
+    
+} 
+
+
+
+
+@media  (max-width:1024px){
+    #restaulogo{ 
+
+        width: 60%;
+        
+    }
+}
+
+@media  (max-width:1024px){
     #nov{ 
-        left: -20px;
-        width: 900px;
+        
+        width: 50%;
     }
+}
 
-    @media  (max-width:768px){
-        #telalog{ 
-            position: relative;
-            left: 50px;
-            bottom:80px ;
-        }
+@media  (max-width:1024px){
+    #telalog{ 
+        position: relative;
+        right: 14%;
+        bottom: 5%;
+
+        
     }
+}
 
-    @media  (max-width:768px){
-        .bloco2{ 
-           
-            left: -170px ;
-            top: 640px;
-           
-        }
+@media  (max-width:1440px){
+    #restaulogo{ 
+
+        width: 60%;
+        
+    }
+}
+
+@media  (max-width:1440px){
+    #nov{ 
+        
+        width: 45%;
+        
     }
 }
 
 
-@media  (max-width:768px){
-    #restaulogo{ 
-        display: none;
+@media  (max-width:1440px){
+    #telalog{ 
+       
+        position: relative;
+        bottom: 4%;
+       
+        
+
+        
     }
 }
