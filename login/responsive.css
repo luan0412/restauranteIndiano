@@ -2,6 +2,7 @@
 @media  (max-width:768px){
     #telalog{ 
        left: 53%;
+       top: -6%;
     }
 
   
@@ -109,7 +110,7 @@
     #telalog{ 
        
         position: relative;
-        bottom: 4%;
+        bottom: 30%;
        
         
 
