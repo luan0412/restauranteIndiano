@@ -63,7 +63,7 @@ botao.addEventListener( 'click', validar => {
         Swal.fire({
             position: 'top-end',
             icon: 'success',
-            title: 'Sua mensagem foi enviada ao Restaurante Start!',
+            title: 'Sua mensagem foi enviada ao Restaurante Annapurna!',
             showConfirmButton: false,
             timer: 3500
         })
